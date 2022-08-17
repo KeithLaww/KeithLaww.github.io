@@ -12,9 +12,16 @@
                     text-align: center;
                     width: 425px;
                     height: 250px;
-                    background: url("/media/IMG_5445.JPG") no-repeat;}
-            .myImg:hover{
-                background: url("/media/poysian.JPG") no-repeat;
+            }
+            .myImg .img-top{
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 99;
+            }
+            .myImg:hover .img-top{
+                display: inline;
             }
         </style>
     </head>
@@ -24,11 +31,9 @@
             I am a Year 2 Information Systems undergraduate in SMU. Big fan of IU! Here's a picture of me!
         </p>
         <br>
-        <div class="myImg"></div>
-        <img src="/media/IMG_5445.JPG"
-        class="myImg"
-        alt="Image"
-        width="425px"
-        height="250px">
+        <div class="myImg">
+            <img src="/media/IMG_5445.JPG" class="myImg" alt="ImageMe">
+            <img src="/media/poysian.jpg" class="img-top" alt="ImageStick">
+        </div>
     </body>
 </html>
