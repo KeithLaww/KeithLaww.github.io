@@ -6,7 +6,7 @@
                 font-style: italic;
                 color: #BC4749;}
             .bio {text-align: center;}
-            .myImg {display: block;
+            /* .myImg {display: block;
                     margin-left: auto;
                     margin-right: auto;
                     text-align: center;
@@ -23,6 +23,22 @@
             }
             .myImg:hover .img-top{
                 display: inline;
+            } */
+            .myImg {
+                width: 130px;
+                height: 195px;
+                position: relative;
+                display: inline-block;
+            }
+            .myImg .img-top {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+            .myImg:hover .img-top {
+                display: inline;
             }
         </style>
     </head>
@@ -34,9 +50,13 @@
             Hover over my picture to see my favourite Thai product!
         </p>
         <br>
-        <div>
+        <div class="myImg">
+            <img src="/media/IMG_5445.JPG" alt="Img Back">
+            <img src="/media/poysian.jpg" class="img-top" alt="Img Front">
+        </div>    
+        <!-- <div>
             <img src="/media/IMG_5445.JPG" class="myImg" alt="ImageMe">
             <img src="/media/poysian.jpg" class="img-top" alt="ImageStick">
-        </div>
+        </div> -->
     </body>
 </html>
