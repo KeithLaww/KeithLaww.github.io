@@ -1,4 +1,4 @@
-<html>
+<template>
 <h1> Hi I'm Keith </h1>
 
     <i style="font: merriweather; color: #BC4749; ">
@@ -9,8 +9,7 @@
     alt="Image"
     height="531"
     width="354">
-</html>
-
+</template>
 <style>
     h1 {text-align: center;
         font-style: italic;
