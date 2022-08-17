@@ -6,7 +6,7 @@
                 font-style: italic;
                 color: #BC4749;}
             .bio {text-align: center;}
-            /* .myImg {display: block;
+            .myImg {display: block;
                     margin-left: auto;
                     margin-right: auto;
                     text-align: center;
@@ -14,29 +14,15 @@
                     height: 250px;
             }
             .myImg .img-top{
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    text-align: center;
+                    display: none;
+                    position: absolute;
                     width: 425px;
                     height: 250px;
+                    top: 0;
+                    left: 0;
+                    z-index: 99;
             }
             .myImg:hover .img-top{
-                display: inline;
-            } */
-            .myImg {
-                width: 425px;
-                height: 250px;
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-                text-align: center;
-            }
-            .myImg .img-top {
-                display: block;
-                position: absolute;
-            }
-            .myImg:hover .img-top {
                 display: inline;
             }
         </style>
@@ -50,12 +36,8 @@
         </p>
         <br>
         <div class="myImg">
-            <img src="/media/IMG_5445.JPG" alt="Img Back">
-            <img src="/media/poysian.jpg" class="img-top" alt="Img Front">
-        </div>    
-        <!-- <div>
             <img src="/media/IMG_5445.JPG" class="myImg" alt="ImageMe">
             <img src="/media/poysian.jpg" class="img-top" alt="ImageStick">
-        </div> -->
+        </div>
     </body>
 </html>
