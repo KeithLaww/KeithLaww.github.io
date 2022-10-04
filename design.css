@@ -1,0 +1,36 @@
+h1 {text-align: center;
+    font-style: italic;
+    color: #BC4749;}
+.bio {text-align: center;}
+.myImg {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 425px;
+        height: 250px;
+}
+.myImg .img-top{
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 425px;
+        height: 250px;
+}
+.myImg:hover .img-top{
+    display: inline;
+}
+#topIconLinks{
+    display: relative;   
+}
+.fa-linkedin{
+    display: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fa-instagram{
+    display: absolute;
+    top: 10px;
+    right: 20px;
+}
