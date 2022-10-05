@@ -23,16 +23,17 @@ h1 {text-align: center;
 #topIconLinks{
     display: relative;   
 }
-.fa-linkedin{
-    display: absolute;
+
+#topIconLinks .fa-linkedin{
+    position: absolute;
     top: 10px;
-    left: 10px;
+    right: 30px;
     font-size: 20px;
 }
 
-.fa-instagram{
-    display: absolute;
+#topIconLinks .fa-instagram{
+    position: absolute;
     top: 10px;
-    left: 20px;
+    right: 20px;
     font-size: 20px;
 }
