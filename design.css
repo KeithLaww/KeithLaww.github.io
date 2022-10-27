@@ -33,6 +33,18 @@ body {
     color: black
 }
 
+.personalImage img{
+    border: black 3px solid;
+    width: 375px;
+    height: 310px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 29%;
+    left: 55%;
+    z-index: 3;
+}
+
 .note img{
     width: 50px;
     height: 50px;
@@ -70,7 +82,7 @@ body {
     padding: 2.6em 3.8em;
     top: 50%;
     transform: translate(-50%, -50%);
-    left: 40%;
+    left: 35%;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
     0 8px 8px rgba(0, 0, 0, 0.1),
     0 16px 16px rgba(0, 0, 0, 0.1), 
