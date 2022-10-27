@@ -283,13 +283,14 @@ a:link, a:visited,  a:hover, a:active
     position: absolute;
     top: 103%;
     font-family: Epilogue;
-    left: 35%;
+    left: 38%;
     font-style: oblique;
 }
 
 #backUp{
     position: absolute;
-    top: 103%;
+    top: 105%;
+    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     left: 5%;
 }
@@ -297,26 +298,26 @@ a:link, a:visited,  a:hover, a:active
 #favouriteVideo {
     position: absolute;
     top: 110%;
-    left: 12%;
+    left: 14%;
     z-index: 1;
 }
 #favouriteVideo2 {
     position: absolute;
     top: 110%;
-    left: 52%;
+    left: 54%;
     z-index: 1;
 }
 
 #favouriteVideo3 {
     position: absolute;
-    top: 150%;
-    left: 12%;
+    top: 155%;
+    left: 14%;
     z-index: 1;
 }
 
 #favouriteVideo4 {
     position: absolute;
-    top: 150%;
-    left: 52%;
+    top: 155%;
+    left: 54%;
     z-index: 1;
 }
